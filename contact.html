@@ -11,101 +11,145 @@
 </head>
 <body>
     <header>
-        <div class="row">
-            <a class="col-md-2 logo" href="index.html">
-                <i class="fa fa-tools"></i></a>
-    
-            <div class="col-md-8 header">
+        <div class="row">    
+            <div class="col-12 header">
                 <div class="">
                     <h1 class="title"> BestBrain Computer Repair Center</h1>
-                    <h2 class="tagline">World Class in Computer Repair & Services</h2>
                 </div>
-            </div>
-
-            <div class="col-md-2 home-contact">
-                    <a href="tel:817 3456 789"><i class="fa fa-phone" aria-hidden="true"></i> 817 3456 789</a>
-                   <div  class="email"><a href="mailto:contact@bcrcenter.com"><i class="fa fa-envelope" aria-hidden="true"></i>
-                   contact@bcrcenter.com</a></div>
             </div>
         </div>
     </header>
 
-    <div class="row">
-        <div class="col-12">
-            <ul id="nav" class="list-inline menucontainer">
-                <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem hvr-rectangle-out">
-                    <a href="index.html" class=""><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
-
-                <li class="col-6 col-sm-3 list-inline-item ui-menu-color-about menuitem hvr-rectangle-out">
-                    <a href="about.html" class=""><i class="fa fa-users" aria-hidden="true"></i><span>About</span></a></li>
-
-                <li class="col-6 col-sm-3 list-inline-item ui-menu-color-booking menuitem hvr-rectangle-out">
-                    <a href="booking.html" class=""><i class="fa fa-book" aria-hidden="true"></i><span>Booking</span></a></li>
-
-                <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem hvr-rectangle-out">
-                    <a href="contact.html" class=""><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a></li>
-            </ul>
-        </div>
+  <div class="topnav" id="myTopnav">
+    <div class="logo">
+        <img src="assets/images/logo.jpg">
     </div>
+ <a href="#contact"></a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="booking.html"> Booking </a>
+  <a href="about.html">About</a>
+  <a href="index.html">Home</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     
     <section class="container">
-         <div>
-            <h3 class="section-heading">Contact Us</h3>
+        <div>
+        <h3 class="section-heading">Contact Us</h3>
         </div>
-                <div class="contact-content">
-                        <div class="contact-addresses">
-                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <a href=""><span>1234 Code Institute Avenue Dublin Ireland</span></a>
-                         </div>
-                        <div>
-                             <i class="fa fa-phone" aria-hidden="true"></i><span>817 3456 789</span>
-                      </div>
-                    <div>
-                         <i class="fa fa-envelope" aria-hidden="true"></i><span>bcrcenter.com</span>
-                    </div>
-                 </div>
+    
+        <div class="row">
+
+         <div class="col-xl-6">
+
+           <form>
+    <div class="form-group">
+    <label for="form-input">Name</label>
+    <input type="text" class="form-control" id="form-field1" placeholder="">
+    </div>
+    <div class="form-group">
+    <label for="form-input">Phone</label>
+    <input type="number" class="form-control" id="form-field12" placeholder="">
+    </div>
+  <div class="form-group">
+    <label for="form-input">Email address</label>
+    <input type="email" class="form-control" id="form-field3" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="form-textarea">Your Message</label>
+    <textarea class="form-control" id="form-field4" rows="8"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+         </div>
+
+            <div class="col-xl-6">
+    <!--The div element for the map -->
+                <div id="map"></div>
+                Office Address: 1313 College Street Grand Prairie TX 75050 <br>
+                Tel: 817 3456 789
+            </div>
+        </div>
     </section>
+
+<script> 
+// Initialize and add the map
+function initMap() {
+  // The location of BCRC
+  var BCRC = {lat: 32.748, lng: -97.023};
+  // The map, centered at Office location
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: BCRC});
+  // The marker, positioned at BCRC
+  var marker = new google.maps.Marker({position: BCRC, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1KWxDfxJ4dGEv6bZ2eTlaosATvTPEvEw&callback=initMap">
+    </script>
+
+
+
+
+
+
 
     <footer>
         <div class="row">
-            <div class="col-md-4 footer-left-section" >
-                <h3 class="footer-heading">ABOUT US</h3>
-                <div class="footer-content">
-                <p align="justify">Lorem ipsum dolor sit amet, per an probo debet graeco. His id diceret dissentiunt. 
-                Quem dicant eruditi eos ex. Vel quem persius equidem id, et pro atqui equidem noluisse.
-                </p>
-                </div>
-            </div>
-            <div class="col-md-4">
+            <div class="col-lg-6 col-md-4 col-sm-3 col-sm-2">
                 <h3 class="footer-heading">CONTACT</h3>
                     <div class="footer-content">
                         <div class="contact-address">
                          <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <a href="contact.html"><span>1234 Code Institute Avenue Dublin Ireland</span></a>
-                         </div>
-                        <div>
-                             <i class="fa fa-phone" aria-hidden="true"></i><span>817 3456 789</span>
-                    </div>
-                    <div>
-                         <i class="fa fa-envelope" aria-hidden="true"></i><span>bcrcenter.com</span>
+                            <span>1313 College Street Grand Prairie TX 75050</span>
+                        </div>
+                        <div class="contact-address">
+                             <i class="fa fa-phone" aria-hidden="true"></i>
+                             <span>817 3456 789</span>
+                        </div>
+                    <div class="contact-address">
+                         <i class="fa fa-envelope" aria-hidden="true"></i>
+                           <span>info@bcrepaircenter.com</span>
                     </div>
                  </div>
                 </div>
-            <div class="col-md-4">
+            <div class="col-lg-6 col-md-4 col-sm-3 col-sm-2">
                 <h3 class="footer-heading">SOCIAL LINKS</h3>
                 <div class="footer-content">
-                    <div>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i><span>facebook.com/bbcomputer</span>
-                    </div>
-                    <div>
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i><span>twitter.com/bbcomputer</span>
-                    </div>
-                    <div>
-                    <i class="fa fa-instagram" aria-hidden="true"></i><span>instagram.com/bbcomputer</span>
-                </div>
+                    <a href="https://www.facebook.com" class="icon-grow-rotate" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
+
+     <div class="row">
+        <div class="col-12">
+            <div class="copyright-text">
+                © Copyright 2020. <span>BestBrain Computer Repair Center. </span> All Rights Reserved.
+            </div>
+        </div>
+     </div>
+
     </footer>  
 </body>
 </html>
