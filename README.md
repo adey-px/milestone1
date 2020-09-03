@@ -18,8 +18,6 @@ As a user I want to
 6. to be able to connect with them on social media
 7. to be able to navigate well around the site 
 
-Link to wireframe design for the website 
-
 ## Features
 The home page basically consists of a carousel which displays three scrolling images with fading effect. The carousel images are used to present
 to users what the company does through picture presentation. The home also consists of the company's foussed area of repair services and a lower section
@@ -60,11 +58,11 @@ The website is hosted on github pages https://adey-px.github.io/milestone1/
 
 ## Credits
 ### Content
-The code for Navigation bar was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/navbar/
-The code for Goolge map was copied from Google Maps platform https://developers.google.com/maps/documentation/javascript/adding-a-google-map
-The code for Carousel was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/carousel/
-The code for Booking form and Contact form was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/forms/
-The texts for Our services section, our Team section and About page were copied from Google search
+1. The code for Navigation bar was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/navbar/
+2. The code for Goolge map was copied from Google Maps platform https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+3. The code for Carousel was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/carousel/
+4. The code for Booking form and Contact form was copied from Bootstrap site https://getbootstrap.com/docs/4.5/components/forms/
+5. The texts for Our services section, our Team section and About page were copied from Google search
 ### Media
 The photos used in this site were obtained from Google images
 ### Acknowledgements
