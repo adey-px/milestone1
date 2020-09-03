@@ -1,4 +1,4 @@
-# Project Name: Website for Computer And Mobile Phones Repair Company
+# Project Name: Website for Computer Repair Company
 The aim of the project is to design a static website for a small business company that deals with repair of personal computers, 
 tablets, ipads and mobile phones. The website consists of four pages including Home, About, Booking and Contact page. All pages 
 have common header and footer which displays the company's name on the header, contact information and social links on the footer.
