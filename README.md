@@ -40,14 +40,14 @@ an appointment. The Web Admin would be able to download the client's information
 are stored for future reference.
 
 ## Languages and Technologies Used
-. HTML5 & CSS3 
-The project uss HTML5 for website layout and CSS3 for styling
-. Bootsrap 4 https://getbootstrap.com/
-The project uses Boostrap with JavaScript to create carousel image slider on home page and Navigation bar 
-. Hover.CSS https://ianlunn.github.io/Hover/
-It uses Hover.css for button hover
-. Font Awesome https://fontawesome.com/
-It uses Font Awesome for Our services section, Team section and social links
+1. HTML5 & CSS3 
+   The project uss HTML5 for website layout and CSS3 for styling
+2. Bootsrap 4 https://getbootstrap.com/
+   The project uses Boostrap with JavaScript to create carousel image slider on home page and Navigation bar 
+3. Hover.CSS https://ianlunn.github.io/Hover/
+   It uses Hover.css for button hover
+4. Font Awesome https://fontawesome.com/
+   It uses Font Awesome for Our services section, Team section and social links
 
 ## Testing
 The menu items on navigation bar works well and the website looks good on Chrome, Mozilla and Edge browsers
