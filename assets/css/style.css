@@ -66,6 +66,7 @@ header {
     width: 100% !important; 
     clear: both;
 }
+
 .contact-menu {
     margin-top: 5px;
 }
@@ -155,6 +156,13 @@ This class makes the topnav look good on small screens (display the links vertic
 .btn-text {
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+.about-img {
+    width: 100%;
+}
+}
+
 .about-us-text {
     padding-left: 20px;
     padding-right: 3px;
@@ -167,6 +175,12 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .team-member-detail {
     text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+.team-member-detail {
+    text-align: left;
+}
 }
 
 div h5 {
@@ -202,6 +216,12 @@ footer {
      text-decoration: none;
      color: #fff;
  }
+
+@media screen and (max-width: 1024px) {
+.footer-social {
+    margin-right: 0px; 
+}
+}
 
 .content-address i {
     font-size: 16px;
