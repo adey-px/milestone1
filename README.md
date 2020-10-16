@@ -3,11 +3,13 @@ The aim of the project is to design a static website for a small business compan
 tablets, ipads and mobile phones. The website consists of four pages including Home, About, Booking and Contact page. All pages 
 have common header and footer which displays the company's name on the header, contact information and social links on the footer.
 They also display a common navigation bar which consists of four menu items that serve as links to the website pages for easy navigation.
+Click this link to view the website https://adey-px.github.io/milestone1/
 
 ## UX
 The website is for people who need repair and servicing of their PCs, tablets and mobile devices. They want to get experts who can handle their 
 jobs professionally and they want to book an appointment to meet them. So the website consists of a form users can fill to book an appointment.
-User stories include:
+
+### User stories
 As a user I want to 
 1. read general information about the company including what they do
 2. view the area of computer repair services offered by the company
@@ -17,6 +19,9 @@ As a user I want to
 5. to contact the company and book an appointment by either filling a form, phone call or email
 6. to be able to connect with them on social media
 7. to be able to navigate well around the site 
+
+http://github.com - automatic!
+[GitHub](http://github.com)
 
 ## Features
 The home page basically consists of a carousel which displays three scrolling images with fading effect. The carousel images are used to present
@@ -43,7 +48,7 @@ are stored for future reference.
 1. HTML5 & CSS3 
    The project uss HTML5 for website layout and CSS3 for styling
 2. Bootsrap 4 https://getbootstrap.com/
-   The project uses Boostrap with JavaScript to create carousel image slider on home page and Navigation bar 
+   The project uses Boostrap 4 to create carousel image slider on home page and responsive Navigation bar 
 3. Hover.CSS https://ianlunn.github.io/Hover/
    It uses Hover.css for button hover
 4. Font Awesome https://fontawesome.com/
