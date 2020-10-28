@@ -22,8 +22,7 @@ As a user I want to
 
 ### 2.2 Wireframes
 In order to bring the idea of this project to life, wireframes were produced with the use of <a href="https://www.balsamiq.com/">Balsamic</a>
-
-[wireframes](https://github.com/adey-px/milestone1/blob/e061354285a5973b41a6080cd8578a925101edf9/wireframes)
+See uploaded folder named "wireframes" for imgages of the wireframes designed to show Desktop, Tablet and Mobile views of the site.
 
 ## 3.0 Features
 ## 3.1 Existing Features
@@ -66,10 +65,10 @@ HTML codes were tested with <a href="https://validator.w3.org/#validate_by_input
 HTML codes were tested with <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a>. The codes returned with no error.
 
 ### 4.2 Testing Responsiveness 
-<img src="readm-images/testing-responsiveness.png" alt="responsiveness-result">
+<img src="readme-images/testing-responsiveness.png" alt="responsiveness-result">
 
-### 4.3 Testing Browser Compatibity
-<img src="readm-images/testing-browser-compatibility.png" alt="browser-compatibility-result"> 
+### 4.3 Testing Browser Compatibility
+<img src="readme-images/testing-browser-compatibility.png" alt="browser-compatibility-result"> 
 
 ### 4.4 Testing User Story 
 As a user I want to: 
