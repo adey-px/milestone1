@@ -22,7 +22,7 @@ As a user I want to
 
 ### 2.2 Wireframes
 In order to bring the idea of this project to life, wireframes were produced with the use of <a href="https://www.balsamiq.com/">Balsamic</a>
-See uploaded folder named "wireframes" for imgages of the wireframes designed to show Desktop, Tablet and Mobile views of the site.
+The folder named "wireframes" has been uploaded in this project's GitHub repository. The folder contains images of the wireframes designed to show Desktop, Tablet and Mobile views of the site.
 
 ## 3.0 Features
 ## 3.1 Existing Features
